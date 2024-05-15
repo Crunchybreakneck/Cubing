@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Cubing</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <a class="link" href="index.html">Return home</a>
+    <div id="center">
+        <label for="Scrambles">Select your cube:</label>
+
+        <select name="Scrambles" id="Scrambles">
+            <option value="Scrambles3x3">3x3</option>
+            <option value="Scrambles2x2">2x2 </option>
+            <option value="ScramblesPyraminx">Pyraminx </option>
+            <option value="ScramblesSkewb">Skewb</option>
+        </select>
+        <br>
+        <div id="scramble"></div>
+        <br>
+        <div id="timer"><span class="value">0</span></div>
+    </div>
+    <div id="solves">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

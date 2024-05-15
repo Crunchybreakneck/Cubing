@@ -1,0 +1,29 @@
+body {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+.link {
+    color: #fff;
+}
+
+.green {
+    color: #ADFF2F;
+}
+
+.red {
+    color: #ff0000;
+}
+
+#center {
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+#timer {
+    max-width: fit-content;
+    margin-inline: auto;
+    font-size: 40px;
+}
